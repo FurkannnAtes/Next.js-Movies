@@ -1,26 +1,359 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
 * {
-  box-sizing: border-box;
+    font-family: Roboto, Helvetica, Arial, sans-serif !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 100px;
 }
+
+/* Navbar Start */
+
+
+#mainNavbar {
+    background-color: rgb(18, 18, 18);
+    padding: 20px 0;
+    z-index: 999;
+}
+
+.navbar-brand {
+    background-color: rgb(245, 197, 24);
+    padding: 5px;
+    color: black !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: 800;
+    letter-spacing: -2px !important;
+}
+
+.nav-srch-box {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.nav-srch {
+
+    width: 100%;
+    border: none;
+}
+
+.nav-srch:focus {
+    outline: rgb(245, 197, 24) 3px solid;
+
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-srch-box {
+        width: 100%;
+        margin: 0 0;
+    }
+
+
+}
+
+/* Navbar End */
+
+/* Home Corousel Start*/
+#homeCarousel {
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.carousel-card {
+    max-height: 400px;
+}
+
+.carousel-card img {
+    width: 150px;
+    height: 250px;
+}
+
+/* Home Corousel End*/
+
+/* Movie List Start */
+.movie-list-container {
+    width: 100%;
+    padding-top: 100px;
+
+}
+
+/* Movie List End */
+
+/* Movie Card Start*/
+.movie-card {
+    color: white;
+    background-color: rgb(26, 26, 26);
+
+}
+
+.movie-card-head {
+    overflow: hidden;
+
+}
+
+.movie-card-head img {
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+}
+
+.movie-card-head img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.favorite-add-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.397);
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+    z-index: 50;
+
+}
+
+.favorite-add-btn:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.favorite-add-btn input {
+    display: none;
+    position: relative;
+
+}
+
+.favorite-add-btn input:checked+i {
+    color: rgb(255, 133, 133);
+}
+
+.give-stars {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.give-stars input {
+
+    display: none;
+}
+
+
+
+.give-stars label {
+    cursor: pointer;
+    padding: 0 5px 0 0;
+}
+
+.give-stars label:hover {
+    color: yellow;
+}
+
+.give-stars label:hover~label {
+    color: yellow;
+}
+
+.rating i {
+    color: yellow;
+}
+
+.card-title {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.card-details-btn {
+    background-color: rgb(87, 253, 239);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+}
+
+.card-details-btn:hover {
+    background-color: black;
+    color: rgb(87, 253, 239);
+
+}
+
+
+/* Movie Card End*/
+
+
+/* Movie Details  Start*/
+.movie-details-container {
+    position: relative;
+    padding-top: 80px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+
+}
+
+.movie-details-bg-filter {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(3, 37, 65, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.movie-details-content {
+    position: relative;
+    z-index: 11;
+}
+
+
+
+.movie-details-content-left img {
+    max-height: 70vh;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+
+}
+
+
+
+.details-rating {
+    background-color: rgb(87, 253, 239);
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    line-height: 60px;
+    font-weight: bold;
+    color: black;
+    border: 3px solid black;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.details-overwiev {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Movie Details  End*/
+
+
+
+
+
+/* Footer Start */
+.footer-container {
+    background-color: rgb(26, 26, 26);
+}
+
+.footer-head {
+
+    padding: 20px 50px;
+    border-bottom: 1px solid rgb(117, 117, 117);
+    color: rgb(117, 117, 117);
+}
+
+.footer-social-medias {
+
+    width: 250px;
+
+}
+
+.footer-social-medias a {
+    color: rgb(117, 117, 117);
+}
+
+.footer-social-medias a:hover {
+    color: rgb(163, 163, 163);
+}
+
+
+
+
+.footer-box {
+
+    width: calc(100%/5);
+}
+
+.footer-box-title {
+    margin: 10px 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(218, 216, 216);
+}
+
+.footer-box ul {
+
+    padding: 0;
+}
+
+.footer-box ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: rgb(117, 117, 117);
+
+}
+
+.footer-box ul li a {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+}
+
+.footer-box ul li i {
+    margin-right: 5px;
+}
+
+.footer-foot {
+    border-top: 1px solid rgb(117, 117, 117);
+    padding: 30px;
+    background-color: rgb(26, 26, 26);
+    color: rgb(117, 117, 117);
+}
+
+@media only screen and (max-width: 992px) {
+    .footer-box {
+        text-align: center;
+        width: 80%;
+    }
+
+}
+
+/* Footer End */

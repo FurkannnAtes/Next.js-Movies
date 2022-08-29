@@ -1,0 +1,84 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "name": "The Shawshank Redemption",
+        "rating": 9.3,
+        "overwiev": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "imgURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+        "imgBanner":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/kXfqcdQKsToO0OUXHcrrNCHDBzO.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Spider-Man: No Way Home ",
+        "rating": 7.6,
+        "overwiev": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+        "imgURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+        "imgBanner":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Uncharted",
+        "rating": 9,
+        "overwiev": "A young street-smart, Nathan Drake and his wisecracking partner Victor “Sully” Sullivan embark on a dangerous pursuit of “the greatest treasure never found” while also tracking clues that may lead to Nathan’s long-lost brother.",
+        "imgURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tlZpSxYuBRoVJBOpUrPdQe9FmFq.jpg",
+        "imgBanner":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/aEGiJJP91HsKVTEPy1HhmN0wRLm.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Thor: Ragnarok",
+        "rating": 8.7,
+        "overwiev": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+        "imgURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+        "imgBanner":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/kaIfm5ryEOwYg8mLbq8HkPuM1Fo.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Jurassic World Dominionv",
+        "rating": 7.7,
+        "overwiev": "Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history’s most fearsome creatures.",
+        "imgURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
+        "imgBanner":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/jauI01vUIkPA0xVsamGj0Gs1nNL.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Avengers: Infinity War ",
+        "rating": 8.9,
+        "overwiev": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+        "imgURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+        "imgBanner":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/lmZFxXgJE3vgrciwuDib0N8CfQo.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Baby Driver",
+        "rating": 8.2,
+        "overwiev": "After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.",
+        "imgURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rmnQ9jKW72bHu8uKlMjPIb2VLMI.jpg",
+        "imgBanner":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/yir5430WblZSZuIMd9C6pIZerfA.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Kingsman: The Golden Circle ",
+        "rating": 7.3,
+        "overwiev": "When an attack on the Kingsman headquarters takes place and a new villain rises, Eggsy and Merlin are forced to work together with the American agency known as the Statesman to save the world.",
+        "imgURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/34xBL6BXNYFqtHO9zhcgoakS4aP.jpg",
+        "imgBanner":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/eVHVwP71el20fofkCHo78ebQv7Q.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Jumanji: Welcome to the Jungle",
+        "rating": 7,
+        "overwiev": "The tables are turned as four teenagers are sucked into Jumanji's world - pitted against rhinos, black mambas and an endless variety of jungle traps and puzzles. To survive, they'll play as characters from the game.",
+        "imgURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pSgXKPU5h6U89ipF7HBYajvYt7j.jpg",
+        "imgBanner":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/zJDMuXQDraHjtF53wikmyBQIcYe.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Pirates of the Caribbean: The Curse of the Black Pearl ",
+        "rating": 8.9,
+        "overwiev": "Jack Sparrow, a freewheeling 18th-century pirate, quarrels with a rival pirate bent on pillaging Port Royal. When the governor's daughter is kidnapped, Sparrow decides to help the girl's love save her.",
+        "imgURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg",
+        "imgBanner":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/uzIGtyS6bbnJzGsPL93WCF1FWm8.jpg"
+      }
+    ]
+  }
